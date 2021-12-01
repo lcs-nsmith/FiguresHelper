@@ -41,7 +41,7 @@ struct CircleView: View {
                 HStack {
                     Spacer()
 //                    Text("\( String(format: "%.2f", 15.0) )")
-                    Text("15.0")
+                    Text("\(radius)")
                         .font(.title2)
                         .bold()
                     Spacer()
@@ -52,6 +52,7 @@ struct CircleView: View {
             
                 Slider(value: ($radius),
                        in: 0.0...100.0,
+                       step: 1.0,
                        label: {
                     Text("Radius")
                 },
