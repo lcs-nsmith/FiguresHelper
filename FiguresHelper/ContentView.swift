@@ -36,6 +36,7 @@ struct ContentView: View {
                     }
                     Slider(value: ($a),
                            in: 0.0...100.0,
+                           step: 0.5,
                            label: {
                         Text("Legnth Of Top")
                     },
@@ -59,6 +60,7 @@ struct ContentView: View {
                     }
                     Slider(value: ($b),
                            in: 0.0...100.0,
+                           step: 0.5,
                            label: {
                         Text("Legnth Of Base")
                     },
@@ -82,6 +84,7 @@ struct ContentView: View {
                     }
                     Slider(value: ($h),
                            in: 0.0...100.0,
+                           step: 0.5,
                            label: {
                         Text("Height")
                     },
