@@ -28,7 +28,7 @@ struct ContentView: View {
                         .font(.system(size: 20, weight: .medium, design: .monospaced))
                     HStack {
                         Spacer()
-                        Text("\(a)")
+                        Text("\(String(format:"%.0f", a))")
                             .font(.title2)
                             .fontWeight(.bold)
                             .padding(.top)
@@ -52,7 +52,7 @@ struct ContentView: View {
                         .font(.system(size: 20, weight: .medium, design: .monospaced))
                     HStack {
                         Spacer()
-                        Text("\(b)")
+                        Text("\(String(format:"%.0f", b))")
                             .font(.title2)
                             .fontWeight(.bold)
                             .padding(.top)
@@ -76,7 +76,7 @@ struct ContentView: View {
                         .font(.system(size: 20, weight: .medium, design: .monospaced))
                     HStack {
                         Spacer()
-                        Text("\(h)")
+                        Text("\(String(format:"%.0f", h))")
                             .font(.title2)
                             .fontWeight(.bold)
                             .padding(.top)
