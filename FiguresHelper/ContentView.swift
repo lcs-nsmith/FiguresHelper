@@ -95,7 +95,7 @@ struct ContentView: View {
                         Text("100.0")
                     })
                 }
-                Text("Area: \(trapezoidArea)")
+                Text("Area: \(String(format:"%.4f",trapezoidArea))")
                     .font(.system(size: 40, weight: .medium, design: .monospaced))
             }
             .navigationTitle("Figures Helper")
